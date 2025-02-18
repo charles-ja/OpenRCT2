@@ -11,7 +11,7 @@
 
 #include "GameAction.h"
 
-enum class RideSetSetting : uint8_t
+enum class RideSetSetting : uint32_t
 {
     Mode,
     Departure,
