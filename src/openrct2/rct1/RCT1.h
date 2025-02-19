@@ -916,7 +916,7 @@ namespace OpenRCT2::RCT1
         uint8_t DepartFlags;                                          // 0x23
         uint8_t NumberOfTrains;                                       // 0x24
         uint8_t NumberOfCarsPerTrain;                                 // 0x25
-        uint8_t MinWaitingTime;                                       // 0x26
+        uint32_t MinWaitingTime;                                       // 0x26
         uint8_t MaxWaitingTime;                                       // 0x27
         union
         {
